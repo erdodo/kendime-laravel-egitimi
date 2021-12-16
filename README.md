@@ -2,9 +2,11 @@
 <h4>Composer Kurulumu</h4>
 <ul>
     <li>
-         Windows için kurulum tamamlandıktan sonra
+        <a href="https://getcomposer.org/download/" > Composer indirme sayfası</a>
     </li>
     <li>
-        <code></code>
+        <code>
+            composer global require laravel/installer
+        </code>
     </li>
 </ul>
