@@ -5,9 +5,10 @@
         <a href="https://getcomposer.org/download/" > Composer indirme sayfası</a>
     </li>
     <li>
+        Laravel kurulum kodları:
         <code style="padding:10px"> 
-            <br>
             composer global require laravel/installer
         </code>
+        Global olarak bir kere indiriliyor daha sonra sadece kurulum yapılıyor
     </li>
 </ul>
