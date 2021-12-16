@@ -6,7 +6,7 @@
     </li>
     <li>
         <code style="padding:10px"> 
-            \n
+            <br>
             composer global require laravel/installer
         </code>
     </li>
