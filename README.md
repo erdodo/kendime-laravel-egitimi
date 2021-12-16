@@ -5,7 +5,7 @@
         <a href="https://getcomposer.org/download/" > Composer indirme sayfası</a>
     </li>
     <li>
-        <code>
+        <code style="padding:10px">
             composer global require laravel/installer
         </code>
     </li>
