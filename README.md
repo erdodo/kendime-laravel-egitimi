@@ -35,15 +35,24 @@
 <h3>Hızlı öğren</h3>
  <ul>
     <li>
-        1.1 : <a href="./egitim/routes/1.1.md"> Routerde viev göstermek istersek </a>
+        Routes:<br>
+        <ul>
+            <li>
+                1.1 : <a href="./egitim/routes/1.md"> Routerde viev göstermek istersek </a>
+            </li>
+            <li>
+                1.2 : <a href="./egitim/routes/2.md"> Routerde sınıf çalıştırmak istersek </a>
+            </li>
+            <li>
+                1.3 : <a href="./egitim/routes/3.md"> Routerde sınıfa parametre gönderme </a>
+            </li>
+        </ul>
     </li>
     <li>
-        1.2 : Routerde sınıf çalıştırmak istersek
-    </li>
-    <li>
-        1.3 : Routerde sınıfa parametre gönderme
-    </li>
-    <li>
-        2.1 : Sınıftan view dosyasına parametler gönderme
+        Controllers:<br>
+        <ul>
+            <li>
+                2.1 : <a href="./egitim/controllers/1.md"> Sınıftan view dosyasına parametler gönderme </a>
+            </li>
     </li>
 </ul>
