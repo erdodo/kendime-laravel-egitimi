@@ -33,7 +33,7 @@ Route::get('/gorunumParams/{isim}', [Ornek::class, 'gorunumParams']);//Görünü
 Route::get('/sablon',[Ornek::class, 'sablon'])->name('onePage');//Sablon methodu çalıştırılır ve ekrana view basar.
 
 Route::get('/formGorunum', [Form::class, 'gorunum'])->name('formGorunum');//FormGorunum methodu çalıştırılır ve ekrana view basar.
-Route::middleware('bosKontrol')->post('/formVeri', [Form::class, 'veri'])->name('formVeri');
+Route::middleware('formKontrol')->post('/formVeri', [Form::class, 'veri'])->name('formVeri');
 
 
 
