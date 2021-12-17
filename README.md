@@ -31,3 +31,4 @@
         Burada birçok ayar ve sabit değişkenleri belirliyoruz.Mesela veritabanı ismi, kullanıcı adı ve şifre gibi.
     </li>
 </ul>
+erdo
