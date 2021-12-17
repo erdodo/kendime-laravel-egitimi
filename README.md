@@ -40,4 +40,6 @@ php artisan serve
 - Views
     - 3.1 : <a href="./egitim/views/1.md"> View dosyasından controllera post işlemi</a>
 - Middleware
-    - 4.1 : <a href="./egitim/middleware/1.md"> Middleware'ın kullanımı </a>
+    - 4.1 : <a href="./egitim/middleware/1.md"> Post edilen verinin Controllers'a ulaşmadan önceki kontrolü </a>
+- Migrations
+    - 5.1 : <a href="./egitim/migrations/1.md"> Laravel kodlarıyla mysql'de tablo oluşturma </a>
