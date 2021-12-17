@@ -39,3 +39,5 @@ php artisan serve
 	- 2.2 : <a href="./egitim/controllers/2.md"> Sınıftan view dosyasına parametler gönderme </a>
 - Views
     - 3.1 : <a href="./egitim/views/1.md"> View dosyasından controllera post işlemi</a>
+- Middleware
+    - 4.1 : <a href="./egitim/middleware/1.md"> Middleware'ın kullanımı </a>

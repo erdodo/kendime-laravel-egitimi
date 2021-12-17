@@ -32,8 +32,8 @@ Route::get('/params/{isim}', [Ornek::class, 'params']);//Parametre alır ve ekra
 Route::get('/gorunumParams/{isim}', [Ornek::class, 'gorunumParams']);//GörünümParams methodu çalıştırılır ve isim değeri ekrana yazdırılır.
 Route::get('/sablon',[Ornek::class, 'sablon'])->name('onePage');//Sablon methodu çalıştırılır ve ekrana view basar.
 
-Route::get('/formGorunum', [Form::class, 'gorunum']);//FormGorunum methodu çalıştırılır ve ekrana view basar.
-Route::post('/formVeri', [Form::class, 'veri'])->name('formVeri');
+Route::get('/formGorunum', [Form::class, 'gorunum'])->name('formGorunum');//FormGorunum methodu çalıştırılır ve ekrana view basar.
+Route::middleware('bosKontrol')->post('/formVeri', [Form::class, 'veri'])->name('formVeri');
 
 
 

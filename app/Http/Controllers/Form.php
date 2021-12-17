@@ -8,7 +8,8 @@ class Form extends Controller
 {
     public function gorunum()
     {
-        return view('form');
+        $data=['mesaj'=>''];
+        return view('form',$data);
     }
     public function veri( Request $request)
     {
