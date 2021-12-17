@@ -37,3 +37,5 @@ php artisan serve
 - Controllers
 	- 2.1 : <a href="./egitim/controllers/1.md"> Sınıftan view dosyasına parametler gönderme </a>
 	- 2.2 : <a href="./egitim/controllers/2.md"> Sınıftan view dosyasına parametler gönderme </a>
+- Views
+    - 3.1 : <a href="./egitim/views/1.md"> View dosyasından controllera post işlemi</a>
