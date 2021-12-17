@@ -21,4 +21,7 @@ class Ornek extends Controller{
     ];
     return view('ornek',$degerler);//ornek isimli views dosyası çalıştır ve isim değeri ekrana yazdırılır.
   }
+  function sablon(){
+    return view('onePage');//ornek isimli views dosyası çalıştır ve isim değeri ekrana yazdırılır.
+  }
 }
