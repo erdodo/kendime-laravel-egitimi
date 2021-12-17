@@ -34,6 +34,6 @@ php artisan serve
 	- 1.3 : <a href="./egitim/routes/3.md"> Routerde sınıfa parametre gönderme </a>
 	- 1.4 : <a href="./egitim/routes/4.md"> Routerde önce sınıfa sonra view dosyasına parametre gönderme </a>
 	- 1.5 : <a href="./egitim/routes/5.md"> Router'a özel isim verme ve çağırma (```<a href="">```) </a>
-- Controllera
-	- 2.1 :  <a href="./egitim/controllers/1.md"> Sınıftan view dosyasına parametler gönderme </a>
-	- 2.2 :
+- Controllers
+	- 2.1 : <a href="./egitim/controllers/1.md"> Sınıftan view dosyasına parametler gönderme </a>
+	- 2.2 : <a href="./egitim/controllers/2.md"> Sınıftan view dosyasına parametler gönderme </a>
