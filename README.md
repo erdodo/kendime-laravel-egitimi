@@ -12,6 +12,12 @@
             Global olarak bir kere indiriliyor daha sonra sadece kurulum yapılıyor
         </li>
     </ul>
+    
+    <h3>Laravel Projesi oluşturma</h3>
+<code style="padding:10px"> 
+    laravel new 'projeIsmı'
+</code><br>
+    
 <h3>Laravel Başlatma</h3>
 <code style="padding:10px"> 
     laravel artisan serve
