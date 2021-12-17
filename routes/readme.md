@@ -10,7 +10,7 @@
 <p>
    İçine test isminde bir fonksiyon tanımladık ve return olarak 'Erdoğan Yeşil' değerini dönmesini istedik.<br>
 </p>
-<code style="background-color:rgb(50,50,50);">
+<code >
 
   public function test()
   {
@@ -24,14 +24,38 @@
 <p>
     /routes/web.php dosyasını açıyoruz
 </p>
-<code>
+<p>
   Öncelikle sayfamızın yukarısına gelerek controller tanımlaması yapıyoruz:
+</p>
 <code>
         use App\Http\Controllers\Ornek;
-    </code><br>
-    daha sonra<br>
-    <code>
-        Route::get('/ornek', [Ornek::class,test]);
-    </code><br>
-    '/ornek' sayfasına gidildiğinde 'Ornek' class'ı içinden 'test' isimli fonksiyonu çalıştır.
+</code>
+<p>
+  daha sonra route tanımlaması yapıyoruz:
 </p>
+
+<code>
+  Route::get('/ornek', [Ornek::class,test]);
+</code>
+<p>
+  '/ornek' sayfasına gidildiğinde 'Ornek' class'ı içinden 'test' isimli fonksiyonu çalıştır.
+</p>
+<p>
+  artık /ornek sayfasına gidildiğinde 'Erdoğan Yeşil' değeri dönecek.
+</p>
+<h4 style="color:rgb(200,100,100)">
+  Ekranda view göstermek istersek:
+</h4>
+<p>
+  /app/Http/Controllers/Ornek.php dosyasını içinde.
+</p>
+<code>
+  public function test()
+  {
+      return view('ornek');
+  }
+</code>
+<p>
+  artık /ornek sayfasına gidildiğinde /resources/views/ornek.blade.php dosyasının içindeki 'Erdoğan Yeşil' değeri dönecek.
+</p>
+
