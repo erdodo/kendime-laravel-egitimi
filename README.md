@@ -13,7 +13,7 @@
         </li>
     </ul>
     
-    <h3>Laravel Projesi oluşturma</h3>
+<h3>Laravel Projesi oluşturma</h3>
 <code style="padding:10px"> 
     laravel new 'projeIsmı'
 </code><br>
