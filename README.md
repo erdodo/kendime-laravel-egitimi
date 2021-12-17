@@ -20,7 +20,7 @@
     
 <h3>Laravel Başlatma</h3>
 <code style="padding:10px"> 
-    laravel artisan serve
+    php artisan serve
 </code><br>
 
 
