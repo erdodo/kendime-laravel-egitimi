@@ -46,6 +46,9 @@
             <li>
                 1.3 : <a href="./egitim/routes/3.md"> Routerde sınıfa parametre gönderme </a>
             </li>
+            <li>
+                1.4 : <a href="./egitim/routes/4.md"> Routerde önce sınıfa sonra view dosyasına parametre gönderme </a>
+            </li>
         </ul>
     </li>
     <li>
