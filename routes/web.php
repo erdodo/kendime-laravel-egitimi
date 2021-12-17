@@ -3,24 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Ornek;
 use App\Http\Controllers\Form;
-/*
-
-Route::get('/hello', function () {
-    return view('welcome');
-});
- 
-|   get                      => hangi method ile çalışacak 
-|   '/hello'                 => url takibi yapar. "http://localhost/hello" adresine gidildiğinde ne olacak.
-|   return view('world');  => çalışacak olan view dosyası return edilir yani ekrana basılır.
- 
-
-Sınıf çağırmak için:
-    - önce sınıfımızı tanımlıyoruz.
-    - use App\Http\Controllers\SınıfIsmi;
-    - sonra route tanımlamamızı yapıyoruz.
-    - Route::get('/urlYolu', [SınıfIsmi::class, 'fonksiyonIsmi']);
-    - artık linke tıklandığında 'SınıfIsmi' sınıfındaki 'fonksiyonIsmi fonksiyonu çalıştırır.
-*/
+use App\Http\Controllers\VeritabaniIslemleri;
 
 Route::get('/', function () {
     return view('welcome');
@@ -34,6 +17,12 @@ Route::get('/sablon',[Ornek::class, 'sablon'])->name('onePage');//Sablon methodu
 
 Route::get('/formGorunum', [Form::class, 'gorunum'])->name('formGorunum');//FormGorunum methodu çalıştırılır ve ekrana view basar.
 Route::middleware('formKontrol')->post('/formVeri', [Form::class, 'veri'])->name('formVeri');
+
+Route::get('/veriEkle', [VeritabaniIslemleri::class, 'ekle']);
+Route::get('/veriGuncelle', [VeritabaniIslemleri::class, 'guncelle']);
+Route::get('/veriSil', [VeritabaniIslemleri::class, 'sil']);
+Route::get('/bilgiler', [VeritabaniIslemleri::class, 'bilgiler']);
+Route::get('/bilgi', [VeritabaniIslemleri::class, 'bilgi']);
 
 
 

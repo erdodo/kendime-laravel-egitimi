@@ -36,7 +36,7 @@ php artisan serve
 	- 1.5 : <a href="./egitim/routes/5.md"> Router'a özel isim verme ve çağırma (```<a href="">```) </a>
 - Controllers
 	- 2.1 : <a href="./egitim/controllers/1.md"> Sınıftan view dosyasına parametler gönderme </a>
-	- 2.2 : <a href="./egitim/controllers/2.md"> Sınıftan view dosyasına parametler gönderme </a>
+	- 2.2 : <a href="./egitim/controllers/2.md"> Veritabanına ekleme,güncelleme,silme,listeleme işlemleri nasıl yapılır </a>
 - Views
     - 3.1 : <a href="./egitim/views/1.md"> View dosyasından controllera post işlemi</a>
 - Middleware
