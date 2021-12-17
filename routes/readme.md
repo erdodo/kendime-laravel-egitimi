@@ -56,6 +56,19 @@
   }
 </code>
 <p>
-  artık /ornek sayfasına gidildiğinde /resources/views/ornek.blade.php dosyasının içindeki 'Erdoğan Yeşil' değeri dönecek.
+  artık /ornek sayfasına gidildiğinde /resources/views/ornek.blade.php dosyasının içindeki html değeri dönecek.
 </p>
+<h4 style="color:rgb(200,100,100)">
+  Urlden parametre almak istersek:
+</h4>
+<p>
+  /app/Http/Controllers/Ornek.php dosyasını içinde.
+</p>
+<code>
+  public function params($isim)
+  {
+      return 'Merhaba '.$isim;
+  }
+</code>
+
 

@@ -9,6 +9,16 @@ class Ornek extends Controller{
     return 'Erdoğan Yeşil';//'Erdoğan Yeşil' değerini döndür;
   }
   function gorunum(){
-    return views('ornek');//ornek isimli views dosyası çalıştır;
+    return view('ornek');//ornek isimli views dosyası çalıştır;
+  }
+  public function params($isim)
+  {
+    return 'Merhaba '.$isim;//Url'den gelen isim değeri ekrana yazdırılır.
+  }
+  function gorunumParams($isim){
+    $degerler=[
+      'isim'=>$isim,
+    ];
+    return view('ornek',$degerler);//ornek isimli views dosyası çalıştır ve isim değeri ekrana yazdırılır.
   }
 }

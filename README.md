@@ -31,5 +31,19 @@
         Burada birçok ayar ve sabit değişkenleri belirliyoruz.Mesela veritabanı ismi, kullanıcı adı ve şifre gibi.
     </li>
 </ul>
-erdo
-deneme
+
+<h3>Hızlı öğren</h3>
+ <ul>
+    <li>
+        1.1 : Routerde viev göstermek istersek
+    </li>
+    <li>
+        1.2 : Routerde sınıf çalıştırmak istersek
+    </li>
+    <li>
+        1.3 : Routerde sınıfa parametre gönderme
+    </li>
+    <li>
+        2.1 : Sınıftan view dosyasına parametler gönderme
+    </li>
+</ul>
