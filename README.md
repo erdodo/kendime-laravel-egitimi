@@ -35,7 +35,7 @@
 <h3>Hızlı öğren</h3>
  <ul>
     <li>
-        1.1 : <a href="./routes/readme.md"> Routerde viev göstermek istersek </a>
+        1.1 : <a href="./egitim/routes/1.1.md"> Routerde viev göstermek istersek </a>
     </li>
     <li>
         1.2 : Routerde sınıf çalıştırmak istersek
