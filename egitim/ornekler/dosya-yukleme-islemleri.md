@@ -1,4 +1,4 @@
-### Laravelde dosya yükleme işlemi nasıl yapılır
+### <a href="https://github.com/erdodo/kendime-laravel-egitimi/commit/8fdeb69544c668d174e3628e28bd61b86dcd7706"> Laravelde dosya yükleme işlemi nasıl yapılır</a>
 - Dosyaları views dosyasını oluşturarak başlayalım. 'upload' isminde bir view dosyası oluşturuyorum.
 - İçine form'umu kodluyorum
 ```html 
