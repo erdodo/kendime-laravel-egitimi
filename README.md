@@ -49,3 +49,4 @@ php artisan serve
 
 ### Örnekler
 - <a href="./egitim/ornekler/kullanicidan-mesaj-alma-yonetici-panelinde-gosterme.md">Kullanıcıdan mesaj alıp yönetici panelinde listeleme</a>
+- <a href="./egitim/ornekler/dosya-yukleme-islemleri.md">Dosya yükleme işlemleri</a>

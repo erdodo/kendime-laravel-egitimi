@@ -6,6 +6,7 @@ use App\Http\Controllers\Form;
 use App\Http\Controllers\VeritabaniIslemleri;
 use App\Http\Controllers\ModelIslemleri;
 use App\Http\Controllers\Iletisim;
+use App\Http\Controllers\Upload;
 
 Route::get('/', function () {
     return view('welcome');
@@ -36,4 +37,8 @@ Route::get('/iletisim', [Iletisim::class, 'gorunum']);
 Route::post('/iletisimVeri', [Iletisim::class, 'veri'])->name('iletisimVeri');
 Route::get('/mesajlar', [Iletisim::class, 'mesajlar']);
 
+Route::get('/upload', function () {
+    return view('upload');
+});
+Route::post('/upload', [Upload::class, 'index'])->name('upload');
 
