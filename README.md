@@ -45,3 +45,7 @@ php artisan serve
     - 5.1 : <a href="./egitim/migrations/1.md"> Laravel kodlarıyla mysql'de tablo oluşturma </a>
 - Models
     - 6.1 : <a href="./egitim/models/1.md"> En basit haliyle model işlemleri </a>
+
+
+### Örnekler
+- <a href="./egitim/ornekler/kullanicidan-mesaj-alma-yonetici-panelinde-gosterme.md">Kullanıcıdan mesaj alıp yönetici panelinde listeleme</a>

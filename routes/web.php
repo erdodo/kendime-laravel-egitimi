@@ -5,6 +5,7 @@ use App\Http\Controllers\Ornek;
 use App\Http\Controllers\Form;
 use App\Http\Controllers\VeritabaniIslemleri;
 use App\Http\Controllers\ModelIslemleri;
+use App\Http\Controllers\Iletisim;
 
 Route::get('/', function () {
     return view('welcome');
@@ -31,5 +32,8 @@ Route::get('/modelVeriSil', [ModelIslemleri::class, 'sil']);
 Route::get('/modelBilgiler', [ModelIslemleri::class, 'bilgiler']);
 Route::get('/modelBilgi', [ModelIslemleri::class, 'bilgi']);
 
+Route::get('/iletisim', [Iletisim::class, 'gorunum']);
+Route::post('/iletisimVeri', [Iletisim::class, 'veri'])->name('iletisimVeri');
+Route::get('/mesajlar', [Iletisim::class, 'mesajlar']);
 
 
