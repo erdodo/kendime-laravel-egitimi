@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Ornek;
 use App\Http\Controllers\Form;
 use App\Http\Controllers\VeritabaniIslemleri;
+use App\Http\Controllers\ModelIslemleri;
 
 Route::get('/', function () {
     return view('welcome');
@@ -24,6 +25,11 @@ Route::get('/veriSil', [VeritabaniIslemleri::class, 'sil']);
 Route::get('/bilgiler', [VeritabaniIslemleri::class, 'bilgiler']);
 Route::get('/bilgi', [VeritabaniIslemleri::class, 'bilgi']);
 
+Route::get('/modelVeriEkle', [ModelIslemleri::class, 'ekle']);
+Route::get('/modelVeriGuncelle', [ModelIslemleri::class, 'guncelle']);
+Route::get('/modelVeriSil', [ModelIslemleri::class, 'sil']);
+Route::get('/modelBilgiler', [ModelIslemleri::class, 'bilgiler']);
+Route::get('/modelBilgi', [ModelIslemleri::class, 'bilgi']);
 
 
 

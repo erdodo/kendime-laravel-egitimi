@@ -43,3 +43,5 @@ php artisan serve
     - 4.1 : <a href="./egitim/middleware/1.md"> Post edilen verinin Controllers'a ulaşmadan önceki kontrolü </a>
 - Migrations
     - 5.1 : <a href="./egitim/migrations/1.md"> Laravel kodlarıyla mysql'de tablo oluşturma </a>
+- Models
+    - 6.1 : <a href="./egitim/models/1.md"> En basit haliyle model işlemleri </a>
