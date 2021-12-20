@@ -17,8 +17,8 @@ laravel new projeIsmı
 ```
 ----
 ### Laravel server başlatma
-```sh
-php artisan serve
+```shell
+composer create-project --prefer-dist laravel/laravel projeadi
 ```
 ----
 ### Bu dosya ne işe yarar
